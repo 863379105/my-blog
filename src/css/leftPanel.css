@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a:link,a:visited{
+    color:rgb(100,100,100);
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:none;
+    color:rgb(100,100,100);
+}
+a:active{
+    text-decoration:none;
+    color:rgb(100,100,100);
+}
+#left-panel{
+    width: 15%;
+    height: 50rem;
+    background-color: black;
+    float: left;
+    color: white;
+}
+#avatar-panel{
+    padding-top: 3rem;
+    text-align: center;
+}
+#avatar-panel img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100%;
+}
+#avatar-panel p{
+    color: white;
+    font-size: 2em;
+}
+#other-site{
+    padding-top: 1rem;
+    text-align: center;
+}
+#other-site li{
+    margin: 0 0.5rem;
+    display:inline;
+}
+
+#other-site li img{
+    border-radius: 100%;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+#nav-panel{
+    padding-top: 1rem;
+    text-align: center;
+}
+#nav-panel li{
+    margin: 1rem 0;
+}
+#qrcode-panel{
+    padding-top: 1rem;
+    text-align: center;
+}
+#qrcode-panel img{
+    width: 70%;
+    height: 70%;
+}
+#system-panel{
+    padding-top: 1rem;
+    text-align: center;
+}

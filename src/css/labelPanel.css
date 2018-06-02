@@ -1,0 +1,13 @@
+#right-panel{
+    width: 85%;
+    height: 50rem;
+    float: right;
+    overflow: hidden;
+}
+#label-panel{
+    padding: 1.5rem;
+}
+#label-panel li{
+    display: inline;
+    margin: 1rem;
+}

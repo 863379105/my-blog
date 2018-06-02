@@ -1,0 +1,114 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+#left-panel{
+    width: 15%;
+    height: 50rem;
+    background-color: black;
+    float: left;
+    color: white;
+}
+#avatar-panel{
+    padding-top: 3rem;
+    text-align: center;
+}
+#avatar-panel img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100%;
+}
+#avatar-panel p{
+    color: white;
+    font-size: 2em;
+}
+#other-site{
+    padding-top: 3rem;
+    text-align: center;
+}
+#other-site li{
+    margin: 0 0.5rem;
+    display:inline;
+}
+#nav-panel{
+    padding-top: 3rem;
+    text-align: center;
+}
+#nav-panel li{
+    margin: 1rem 0;
+}
+#right-panel{
+    width: 85%;
+    height: 50rem;
+    float: right;
+    overflow: hidden;
+}
+#label-panel{
+    padding: 1.5rem;
+}
+#label-panel li{
+    display: inline;
+    margin: 1rem;
+} */
+#header-panel{
+    height: 3rem;
+    background-color:rgb(250,250,250);
+    border: 1px rgb(240,240,240) solid;
+    color: rgb(200,200,200);
+    font-size: 0.8em;
+    overflow: hidden;
+}
+#header-panel span{
+    display: block;
+}
+#header-panel #header-title{
+    line-height: 3rem;
+    float: left;
+    margin-left: 1rem;
+    font-size: 1.75em;
+    color: rgb(100, 100, 100)
+}
+#header-panel #header-rollbackBTN{
+    line-height: 3rem;
+    float: right;
+    margin-right: 3rem;
+}
+
+
+#article-panel{
+    overflow: hidden;
+    overflow: auto;
+    padding: 3rem 1rem;
+}
+#article-panel #msg-panel{
+    padding: 0.5rem 2rem;
+    border: 1px rgb(240,240,240) solid;
+    overflow: hidden;
+    line-height: 3rem;
+}
+#article-panel #msg-panel #msg-avatar img{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+}
+#article-panel #msg-panel #msg-avatar{
+    float: left;
+}
+#article-panel #msg-panel #msg-author{
+    margin-left: 1.5rem;
+    font-size: 1.25em;
+    float: left;
+    color: rgb(200,200,200);
+
+}
+#article-panel #msg-panel #msg-date{
+    float: right;;
+    color: rgb(200,200,200);
+}
+#article-panel #detail-panel{
+    overflow: hidden;
+    overflow: auto;
+    padding: 1rem;
+    border: 1px rgb(240,240,240) solid;
+}
+
